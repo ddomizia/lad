@@ -2,10 +2,12 @@
 import React from "react";
 
 import { Helmet } from "react-helmet";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 const Seo = (props) => {
 
   return (
+ 
     <Helmet>
       <title>{props.title}</title>
       <meta name="description" content={props.description} />
@@ -23,6 +25,7 @@ const Seo = (props) => {
 
       {props.children}
     </Helmet>
+    
   );
 };
 

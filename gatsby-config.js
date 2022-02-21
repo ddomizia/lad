@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
+    'gatsby-plugin-next-seo',
     {
       resolve: "gatsby-transformer-remark",
       options: {
