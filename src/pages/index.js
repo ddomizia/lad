@@ -6,6 +6,7 @@ import styled from "styled-components";
 import Team from "../components/Team"
 import Layout from "../templates/Layout";
 import BlogPreview from "../components/BlogPreview";
+import Map from "../components/map";
 //others
 import { Row, Col, Container } from "react-bootstrap";
 
@@ -37,6 +38,10 @@ const Index = ({data}) => {
               {/* A proposito di noi */}
               <section>
                 <Team />
+              </section>
+
+              <section>
+                <Map/>
               </section>
 
               {/* Che cosa facciamo */}
