@@ -41,7 +41,10 @@ const Index = ({data}) => {
               </section>
 
               <section>
-                <Map/>
+                <Container>
+                  <h2 className="border-bottom">Dove abbiamo lavorato</h2>
+                  <Map />
+                </Container>
               </section>
 
               {/* Che cosa facciamo */}
