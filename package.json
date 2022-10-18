@@ -1,40 +1,45 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "lad-sito-web",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Sito web ufficiale del LAD: Laboratorio di Archeologia Digitale alla Sapienza",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Julian Bogdani <julian.bogdani@uniroma1.it>",
   "dependencies": {
-    "@deckdeckgo/highlight-code": "^4.0.0",
+    "@deckdeckgo/highlight-code": "^3.2.0",
     "@react-icons/all-files": "^4.1.0",
-    "babel-plugin-styled-components": "^2.0.1",
-    "bootstrap": "^5.1.3",
-    "gatsby": "^4.7.1",
-    "gatsby-plugin-gatsby-cloud": "^4.7.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "bootstrap": "^5.2.1",
+    "gatsby": "^4.14.1",
+    "gatsby-plugin-gatsby-cloud": "^4.24.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-image": "^2.7.0",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "gatsby-plugin-offline": "^5.7.0",
-    "gatsby-plugin-react-helmet": "^5.7.0",
-    "gatsby-plugin-sass": "^5.7.0",
-    "gatsby-plugin-sharp": "^4.7.0",
-    "gatsby-plugin-styled-components": "^5.7.0",
-    "gatsby-remark-autolink-headers": "^5.7.0",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-next-seo": "^1.10.0",
+    "gatsby-plugin-offline": "^5.24.0",
+    "gatsby-plugin-react-helmet": "^5.24.0",
+    "gatsby-plugin-robots-txt": "^1.7.1",
+    "gatsby-plugin-sass": "^5.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-sitemap": "^5.24.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
+    "gatsby-remark-autolink-headers": "^5.24.0",
     "gatsby-remark-highlight-code": "^3.2.0",
-    "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-transformer-remark": "^5.7.0",
-    "gatsby-transformer-sharp": "^4.7.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-remark": "^5.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-bootstrap": "^2.0.2",
-    "react-dom": "^17.0.1",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-helmet-async": "^1.3.0",
     "react-icons": "^4.3.1",
-    "sass": "^1.49.7",
-    "styled-components": "^5.3.3"
+    "react-share": "^4.4.0",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.6.2"
   },
   "keywords": [
     "gatsby"
@@ -46,14 +51,13 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && rsync -arvzu --delete --filter='P .ssh' --filter='P .bash_history' --filter='P .screenrc' public/ lad:"
+    "deploy": "gatsby build --prefix-paths && rsync -arvzu --delete --filter='P .ssh' --filter='P .bash_history' --filter='P .screenrc' public/ lad:"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/lab-archeologia-digitale/lad/"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lab-archeologia-digitale/lad/issues"
   }
 }
