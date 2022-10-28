@@ -1,28 +1,34 @@
 //import
 import React from "react";
-
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 import { Helmet } from "react-helmet";
 
 const Seo = (props) => {
-
   return (
-    <Helmet>
-      <title>{props.title}</title>
-      <meta name="description" content={props.description} />
-      <link rel="canonical" href={props.url} />
-
-      <meta property="og:title" content={props.title} />
-      <meta property="og:description" content={props.description} />
-      <meta property="og:url" content={props.url} />
-      {props.img && <meta property="og:image" content={props.img} />}
-    
-      <meta property="twitter:title" content={props.title} />
-      <meta property="twitter:description" content={props.description} />
-      <meta property="twitter:url" content={props.url} />
-      {props.img && <meta property="twitter:image" content={props.img} />}
-
-      {props.children}
-    </Helmet>
+    <>
+      <GatsbySeo
+        title={props.title}
+        description={props.description}
+        canonical={props.url}
+        openGraph={{
+          url: props.url,
+          title: props.title,
+          description: props.description,
+          images: [
+            {
+              url: props.image,
+              alt: props.title,
+            },
+          ],
+        }}
+      />
+      <Helmet>
+        {props.children}
+        {props.url.indexOf("/blog/") > -1 && (
+          <script src="https://hypothes.is/embed.js" async></script>
+        )}
+      </Helmet>
+    </>
   );
 };
 

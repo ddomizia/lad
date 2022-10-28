@@ -20,8 +20,8 @@ const Footer = () => {
                   />
                   <h5 className="text-center">Laboratorio di Archeologia Digitale alla Sapienza</h5>
                   <p>
-                    Responsabile: Julian Bogdani<br />
-                    <a href="mailto:julian.bogdani@uniroma1.it">
+                    Responsabile scientifico: Julian Bogdani<br />
+                    <a href="mailto:julian.bogdani@uniroma1.it" title="Mail to Julian Bogdani">
                       julian.bogdani@uniroma1.it
                     </a>
                   </p>
@@ -29,7 +29,7 @@ const Footer = () => {
               </Col>
               <Col sm={4} className="d-flex align-items-center">
                   <h5 className="text-center">
-                    <a href="https://saras.uniroma1.it/" alt="SARAS" className="green fs-4">
+                    <a href="https://saras.uniroma1.it/" title="Dipartimento SARAS. Sapienza Università di Roma" className="green fs-4">
                       Dipartimento di Storia Antropologia Religioni Arte
                       Spettacolo.<br /> Sapienza Università di Roma
                     </a>

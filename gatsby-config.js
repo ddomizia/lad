@@ -13,6 +13,24 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
+    {
+      resolve: `gatsby-plugin-next-seo`,
+      options: {
+        openGraph: {
+          type: 'website',
+          locale: 'it_IT',
+          url: 'https://lad.saras.uniroma1.it/',
+          site_name: 'LAD: Laboratorio di Archeologia Digitale alla Sapienza',
+        },
+        twitter: {
+          handle: '@JulianBogdani',
+          site: '@JulianBogdani',
+          cardType: 'summary_large_image',
+        },
+      }
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -20,7 +38,14 @@ module.exports = {
         footnotes: true,
         plugins: [
           "gatsby-remark-autolink-headers",
-          "gatsby-remark-highlight-code"
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "one-dark",
+              lineNumbers: true
+            }
+          }
         ]
       },
     },

@@ -3,7 +3,7 @@ title: Sistema di citazione bibliografica per GitHub e non solo
 autore: Julian Bogdani
 licenza: CC BY 4.0 International
 livello: medio
-tags: [riflessioni a appunti, open standard, coding]
+tags: [riflessioni e appunti, open standard, coding]
 img: ./b-dus-db.png
 date: 2021-08-22
 sommario: "La ricerca scientifica passa sempre di più attraverso la programmazione e la scrittura di codice. Per questo motivo è nato uno standard di citazione bibliografica per le repository digitali che ne permette il riconoscimento academico."
@@ -50,7 +50,7 @@ Anche se non viene riportato nella documentazione ufficiale, CFF utilizza il for
 
 Per illustrare in maniera pratica e molto semplice un'implementazione di questa nuova funzionalità in GitHub si porta l'esempio della repository di Bradypus, il sistema di gestione di banche dati archeologiche sul Web, uno dei progetti principali del LAD.
 
-Nella repository principale è stato creato il file LICENSE.cff con il seguente contenuto:
+Nella repository principale è stato creato il file CITATION.cff con il seguente contenuto:
 
 ```yml
 cff-version: 1.2.0  
