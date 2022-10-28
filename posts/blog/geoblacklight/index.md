@@ -2,8 +2,8 @@
 title: Sistema di indicizzazione geodati GeoBacklight
 autore: Domizia D'Erasmo
 licenza: CC BY 4.0 International
-livello: avanzato
-tags: [open standard, data set geospaziali]
+livello: medio
+tags: [open standard, geodati, open source, gis webGIS, dati geografici, recensioni]
 img: ./geoblacklight.png
 date: 2022-11-10
 sommario: "GeoBlacklight è un software open-source Ruby on Rails (RoR) ideato per ospitare contenuti geospaziali come data set GIS e mappe cartacee digitalizzate. Nato nel 2014 come collaborazione tra il Massachusetts Institute of Technology (MIT), l'Università di Priceton e quella di Stanford, GeoBlacklight è basato sul software open source BlackLight ed è un progetto con licenza Apache 2.0..."
