@@ -1,12 +1,12 @@
 ---
-title: BDUS API: accedere in maniera programmatica ai dati
+title: "BDUS API: accedere in maniera programmatica ai dati"
 autore: Julian Bogdani
 licenza: CC BY 4.0 International
 livello: avanzato
 tags: [coding, api, cronologia]
 img: ./tempo.jpg
-date: 2022-03-03
-sommario: DA AFRE
+date: 2022-10-29
+sommario: DA FARE
 ---
 
 ## Introduzione
